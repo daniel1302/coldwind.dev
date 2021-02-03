@@ -1,0 +1,516 @@
+/* @import url(http://fonts.googleapis.com/css?family=Electrolize); */
+
+html
+{
+	background:			url(images/bg.gif) #2c2c5c;
+	margin:				0;
+	padding:			0;
+	font-family:			verdana, sans-serif;
+}
+
+#main
+{
+	margin:				0;
+	padding:			0;
+	/*background:			url(images/header.jpg) no-repeat right top;*/
+}
+
+div.not-found-404 {
+  font-size: 5em;
+  text-align: center;
+  font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+body
+{
+	margin:				0;
+	margin-top:			1em;
+	margin-bottom:			1em;        
+	/*margin-right:			4.38em;
+      	margin-left:			4.38em;*/
+	margin-right:			auto;
+      	margin-left:			auto;
+	padding:			0 0 1.0em;
+	background:			url(images/gradient.jpg) #3e3e75 no-repeat 0px 0px;
+	border-right:			0.44em solid #2C2C5C;
+	border-left:			0.44em solid #2C2C5C;
+	border-bottom:			0.44em solid #2C2C5C;        
+	max-width:			80em;
+	min-width:			49.38em;
+	width:				auto !important;
+	width:				49.38em;
+}
+
+table#grid {
+	border-collapse:		collapse;
+	width:				100%;
+	font-size:			0.8em;        
+}
+
+table#grid tr td {
+        width:                          50%;
+        vertical-align: top;
+	padding:			0.5em 0.5em;
+}
+
+table#grid td td {
+  width: auto;
+  padding: 0.25em;
+  border-spacing: 0px;
+  word-wrap: break-word;
+}
+
+table#grid td.full {
+        width:                         100%;
+}
+
+table#grid td.quarter {
+        width:                         25%;
+}
+
+table#grid td div.inner-window {
+
+}
+
+table#grid td div.inner-title {
+        background-color: #16162C;
+        background-image: url(images/th_left.png), url(images/th_right.png);
+        background-position: left top, right bottom;
+        background-repeat: no-repeat;
+        color:                          #A7A7EA;
+        padding-left:                   1em;
+        padding-top:                    0.2em;
+        padding-bottom:                 0.2em;
+        font-weight: bold;
+}
+
+table#grid td div.inner-title a {
+        text-decoration: none;
+}
+
+table#grid td div.inner-content {
+        /*border: 1px solid #16162C;*/
+        color: #B7B7F7;
+        padding: 0.5em;
+        text-align: justify;
+}
+
+table#grid td div.inner-content h1 { font-size: 1.8em; }
+table#grid td div.inner-content h2 { font-size: 1.6em; }
+table#grid td div.inner-content h3 { font-size: 1.4em; }
+table#grid td div.inner-content h4 { font-size: 1.2em; }
+
+ul {
+   list-style-image: url(images/dot.png);
+   padding: 0;
+   padding-left: 1em;
+}
+
+li {
+  padding-bottom: 0.25em;
+}
+
+span.nb {
+  font-weight: normal;
+}
+
+span.right {
+  float: right;
+  padding-right: 20px;
+  font-weight: normal;
+}
+
+span.collaborative {
+  color: #8787E7;
+}
+
+span.collaborative a {
+  color: #8787E7;
+}
+
+span.dark {
+  color: black;
+}
+
+span.white {
+  color: white;
+}
+
+center#yt-eps {
+
+}
+
+#bottom-note {
+  font-size: 0.85em;
+}
+
+
+
+/********* MISC ***********************************************************************/
+img
+{
+	border:				0;
+	/*margin:				0 1.56em;*/
+}
+
+img[align=left]
+{
+	margin-left:			0;
+}
+
+img[align=right]
+{
+	margin-right:			0;
+}
+
+a
+{
+	color:				white;
+	text-decoration:		underline;
+}
+
+.a-no-deco a {
+        color:                          #B7B7F7;
+        text-decoration:                none;
+}
+
+a:hover
+{
+	color:				#FF8F0A;
+}
+
+
+
+table th, .dllhead
+{
+	font-size:			1.2em;
+	padding-left:			0;
+}
+
+center.dllhead
+{
+	font-size:			1.7em;
+}
+
+.dllcolhead
+{
+	background:			#141334;
+}
+
+
+
+
+.a0, .dllnote0
+{
+	background:			#353268;		
+}
+
+.b0, .dllname0
+{
+	background:			#282554;
+}
+
+.a1, .dllnote1
+{
+	background:			#3e3b78;
+}
+
+.b1, .dllname1
+{
+	background:			#484585;
+}
+
+
+/********* END of MISC ********************************************************************/
+
+
+#header
+{
+	background:			url(images/topbg.gif) repeat-x;
+	height:				7.5em;
+        text-align:                     center;
+}
+
+#logo
+{
+	position:			relative;
+	top:				1em;
+	/*left:				1.3em;*/
+}
+
+#header h1
+{
+	color:				white;
+	display: 			block;
+	margin: 			0;
+	padding:			0;
+	font-weight:			normal;
+	font-size:			28pt;
+}
+
+#header h1 a {
+ text-decoration:none;
+}
+
+
+
+#content
+{
+        margin:                         0;
+        margin-left:                    1em;
+        margin-right:                   1em;
+}
+
+#content .post
+{
+	font-size:			10.5pt;
+	line-height:			16pt;
+	color:				#b7b7f7;
+	margin-left:			4.0em;
+	margin-top:			1.88em;
+}
+
+#comments
+{
+	margin-left:			4.0em;
+	color:				#fff; /*#b7b7f7;*/
+	font-size:			10pt;
+}
+
+#comments h2
+{
+	font-weight:			normal;
+	font-size:			20pt;
+	color:				#FFF; /*#16162c;*/
+}
+
+#comments .comment
+{
+	color:				#fff; /*#16162c;*/
+	margin-bottom:			0.5em;
+	padding:			1.5em;
+}
+
+#comments .comment .text
+{
+	color:				#b7b7f7;
+	line-height:			14pt;
+	padding-left:			1.6em;
+}
+
+.postcomments
+{
+	margin:				1.25em 0 1.88em 0;
+	text-align:			right;
+}
+
+
+#comments table
+{
+	width:				80%;
+}
+
+#comments input
+{
+	width:				100%;
+}
+
+#comments textarea
+{
+	width:				100%;
+	height:				15.63em;
+}
+
+#comments .button
+{
+	width:				auto;
+	margin:				0.94em 0;
+}
+
+#comments table td
+{
+	padding:			0.31em;
+}
+
+.commendata
+{
+	color:				black;
+}
+
+.title .inside
+{
+	background:		 	#16162c url(images/title3.gif) no-repeat left bottom;
+	margin-left:			3.19em;
+}	
+
+.title .inside2
+{
+	background:			url(images/title2.gif) no-repeat right bottom;
+	padding:			0.88em 2.19em 1.06em 1.50em;
+}
+
+.title
+{
+	background:			url(images/title.gif) no-repeat;
+}
+
+
+.title h2
+{
+	font-size:			15pt;
+	color:				white;
+	display: 			inline;
+	font-weight:		normal;
+}
+
+.title .date
+{
+	font-size:			15pt;
+	color:				#a7a7ea;
+	display: 			inline;
+}
+
+.title .tags
+{
+	color:				#a7a7ea;
+	font-size:			9pt;
+	margin-top:			0.38em;
+}
+
+.title h2 a
+{
+        text-decoration:                none;
+}
+
+.title h2 a:hover
+{
+        text-decoration:                underline;
+        color:                          white;
+}
+
+#sidebar
+{
+	width:				13.13em;
+	padding:			1.25em;
+	float:				right;
+}
+
+
+
+#footer
+{
+	font-size:			7.5pt;
+	color:				#B7B7F7;
+}
+
+.section h4{
+	margin:				0.94em 0.63em 0.13em 0.63em;
+}
+
+.var
+{
+	color:				#d6d6d7;
+}
+
+.val
+{
+	color:				#e1cb95;
+}
+
+.super
+{
+	color:				#ff8f0a;
+}
+.clear
+{
+	clear:				both;
+}
+
+
+
+
+
+input, textarea
+{
+	background:			#8387d7;
+	border:				#212152 1px solid;
+	color:				#16162c;
+	font-family:			verdana, sans-serif;
+	font-size: 			10.5pt;
+	line-height:			12pt;
+}
+
+.button
+{
+	background:			#16162c;
+	color:				#8387d7;
+	padding:			0.31em;
+	font-size:			9pt;
+}
+
+.button:hover
+{
+	color:				white;
+}
+
+
+.zebra0
+{
+        background:			#353268;
+}
+
+.zebra1
+{
+	background:			transparent;
+}
+
+q { font-style: italic; }
+
+
+.my-color-1 {
+  color: #FF8F0A;
+}
+
+.my-color-2 {
+  color: #44ff22;
+}
+
+.my-color-3 {
+  color: #ffff00;
+}
+
+.my-color-4 {
+  /*color: white;*/
+  font-family:                        Consolas, Andale Mono, monospace;
+  /*background-color: #16162C;*/
+  background:				#2a2855;
+  padding-left: 0.25em;
+  padding-right: 0.25em;
+
+  background-color: #2e2e57;
+  /*background-color: #000;*/
+  color: #46d378;
+
+  line-height:		        1.2em;
+    font-weight: bold;
+}
+
+code {
+    font-weight: bold;
+    color : #46d378;
+    background-color: #2e2e57;
+    display:				block;
+    font-size:				9.5pt;
+    line-height:		        1.2em;
+    padding:				0.63em;
+    border:				1px solid #56538c;
+    font-family:                        Consolas, Andale Mono, monospace;
+}
+
+.tr-hi-0 {
+    background-color: #2e2e57;
+}
+
+.tr-hi-1 {
+    background-color: #16162c;
+}

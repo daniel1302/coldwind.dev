@@ -1,0 +1,31 @@
+/* In post CSS */
+
+span.code {
+  font-family: monospace;
+}
+
+img.right {
+  float:right;
+  margin: 0 0 0.5em 0.5em;
+  border: 0;
+}
+
+img.align-left {
+  float:left; 
+  margin: 0 0.5em 0.5em 0;
+  border: 0;
+}
+
+div.verbose {
+  margin: 0.5em;
+  border: 1px solid #56538c;
+  padding: 0.63em;
+}
+
+.banner-fill {
+  margin: 0;
+  margin-bottom: 0.5em;
+  width: 100%;
+  height: auto;
+}
+
